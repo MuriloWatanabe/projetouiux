@@ -1,14 +1,9 @@
-import "./style.css"
-import CarroselCategories from "../app/components/carroselcategories"
+import "./home.css"
+import CarroselCategories from "../../components/Carrosel/carroselcategories";
 
 export default function Home() {
   return (
     <main>
-      <header>
-        <a className="nav-link" href="">Home</a>
-        <a className="nav-link" href="">Sobre</a>
-        <a className="nav-link" href="">Fale conosco</a>
-      </header>
     <div className="a2">
         <a href="">Produtos</a>
         <a href="">Ofertas</a>
