@@ -1,0 +1,35 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
+.card {
+    width: 25%;
+    height: 400px;
+    background-color: black;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.input {
+    width: 80%;
+    height: 24px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: none;
+}
+#material-icons { color: rgba(255, 255, 255, 1); }
+
+.save-btn {
+    height: 24px;
+    border: none;
+    border-radius: 6px;
+    width: 81%;
+    cursor: pointer;
+}
