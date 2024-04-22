@@ -36,6 +36,6 @@ a:hover {
   justify-content: flex-end;
 }
 
-#material-icons {
+.nav-link #material-icons {
   font-size: 40px;
 }
