@@ -14,10 +14,10 @@ export default function Home() {
       <h1>Ofertas</h1>
       <h2>Tenis de Basquete</h2>
     </div>
-    <div className="Carrosel">
+    {/* <div className="Carrosel">
     <CarroselCategories/>
-    </div>
-
+    </div> */}
+    
     </main>
   );
 }

@@ -2,13 +2,15 @@ import Router from "./router/router.js"
 import './App.css';
 
 //components
-import Navbar from "./components/Navbar/navbar.jsx";
+import NavbarComp from "./components/Navbar/navbar.jsx";
+import Footer from "./components/Footer/footer.jsx";  
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <NavbarComp />
       <Router />
+      <Footer />
     </div>
   );
 }

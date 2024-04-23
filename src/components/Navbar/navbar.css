@@ -12,7 +12,7 @@ header {
     height: 10%;
 }
 
-a{
+.nav-link{
   color: white;
   font-size:larger;
   margin-right: 10px;
