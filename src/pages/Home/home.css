@@ -105,20 +105,23 @@ html {
   }
 
   .ImbPrincipal{
-    height: 500px;
+    height: 400px;
    justify-content: center;
    display: flex;
    align-content: center;
   }
   .cardz {
     width: 200px;
-    height: 300px;
+    height: 250px;
     background-color: #f0f0f0;
-    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s; /* Adiciona transição para o efeito de zoom */
     cursor: pointer; /* Altera o cursor para uma mãozinha */
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
 }
 
 .cardz:hover {
@@ -127,6 +130,7 @@ html {
 
 .cardz-content {
     padding: 20px;
+    text-align: center;
 }
 
 .cardz-title {
@@ -139,21 +143,52 @@ html {
     font-size: 14px;
 }
 
-/* Estilos para o botão */
-.transparent-button {
-    background-color: transparent;
-    border: none;
-    color: #000;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+  
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr); /* Cria três colunas de largura igual */
+  grid-gap: 120px; /* Espaçamento entre as células */
+
 }
 
-.transparent-button:hover {
-    background-color: #000;
-    color: #fff;
+.grid-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-  
-.Cards {
+.Cards{
+  justify-content: center;
+  display: flex;
+  margin: 50px;
+}
+.SecondNavbar{
 display: flex;
+justify-content: center;
+}
+
+.SecondNavbar button {
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Estilos para os botões quando o mouse passa por cima */
+.SecondNavbar button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #000;
+}
+
+/* Estilos para os botões quando clicados */
+.SecondNavbar button:active {
+  transform: translateY(2px);
 }
