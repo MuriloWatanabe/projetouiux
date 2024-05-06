@@ -1,5 +1,9 @@
+import "./cart.css";
+
 export default function Cart() {
     return(
-        <div><h1>Cart Page</h1></div>
+        <div className="cart-container">
+            
+        </div>
     )
 }
