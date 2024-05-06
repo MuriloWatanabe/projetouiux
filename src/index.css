@@ -1,7 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 #root {
   height: 100%;

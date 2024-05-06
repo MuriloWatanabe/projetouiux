@@ -9,7 +9,9 @@ function App() {
   return (
     <div className="App">
       <NavbarComp />
-      <Router />
+      <div className="content">
+        <Router />
+      </div>
       <Footer />
     </div>
   );
