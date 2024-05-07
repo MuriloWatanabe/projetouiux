@@ -8,7 +8,8 @@ export default function Home() {
         <a href="">Produtos</a>
         <a href="">Ofertas</a>
         <a href="">Masculino</a>
-        <a href="">Feminino</a>    
+        <a href="">Feminino</a>  
+
     </div>
     <div className="titles">
       <h1>Ofertas</h1>
@@ -22,6 +23,10 @@ export default function Home() {
   <p><button class="btnO">Saiba Mais</button></p>
   <p><button class="btnO">Ver Ofertas</button></p>
   <p><button class="btnO">Para Você !</button></p>
+</div>
+
+<div className="PrimeiroTitulo">
+  <h1>Tênis de Basquete</h1>
 </div>
 
    {/* Cards dos Tenis para compra */}
@@ -38,17 +43,17 @@ export default function Home() {
 </div>
 
 <div class="cardz" onclick="location.href='https://www.example.com';">
-    <img src="https://th.bing.com/th/id/R.ec06d43bacb929c2e9f95cab13819809?rik=GPNzO8b3Q0%2fbnA&riu=http%3a%2f%2fsneakernews.com%2fwp-content%2fuploads%2f2008%2f12%2fzoom-lebron-vi-miami.jpg&ehk=dZQxwsiE4OTo%2fG2VBrbfOJanhQtF7aWaj1Mc7L%2bXAsE%3d&risl=&pid=ImgRaw&r=0" alt="Nike Zoom LeBron VI" style={{width: "100%"}}></img>
+    <img src="https://cdn.shopify.com/s/files/1/0463/6734/2742/products/1_3c88e6a5-d47b-4140-befc-58e913239281.jpg?v=1616355246" alt="Nike Kobe 6 Protro Grinch" style={{width: "100%"}}></img>
     <div class="cardz-content">
-        <h1 class="cardz-title">Nike Zoom LeBron VI</h1>
+        <h1 class="cardz-title">Nike Kobe 6 Protro Grinch</h1>
         <p class="price">$199.99</p>
     </div>
 </div>
 
 <div class="cardz" onclick="location.href='https://www.example.com';">
-    <img src="https://th.bing.com/th/id/R.ec06d43bacb929c2e9f95cab13819809?rik=GPNzO8b3Q0%2fbnA&riu=http%3a%2f%2fsneakernews.com%2fwp-content%2fuploads%2f2008%2f12%2fzoom-lebron-vi-miami.jpg&ehk=dZQxwsiE4OTo%2fG2VBrbfOJanhQtF7aWaj1Mc7L%2bXAsE%3d&risl=&pid=ImgRaw&r=0" alt="Nike Zoom LeBron VI" style={{width: "100%"}}></img>
+    <img src="https://sneakernews.com/wp-content/uploads/2020/11/Nike-Kobe-6-Protro-3D-Lakers-CW2190-101-1.jpg" alt="Adidas Harden Stepback" style={{width: "100%"}}></img>
     <div class="cardz-content">
-        <h1 class="cardz-title">Nike Zoom LeBron VI</h1>
+        <h1 class="cardz-title">Nike Kobe 6 3D </h1>
         <p class="price">$199.99</p>
     </div>
 </div>

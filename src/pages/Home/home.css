@@ -7,7 +7,7 @@ html {
    padding: 0;
    height: 100%;
    font-family: Arial, Helvetica, sans-serif;
- }
+font-weight: bold; }
 
  a{
    color: white;
@@ -20,6 +20,7 @@ html {
    color:black;
    padding-right: 20px;
    text-align: center;
+   Text-decoration: underline   
   
  }
  .a2{
@@ -123,6 +124,12 @@ html {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     
 }
+.cardz img{
+max-width: 100%;
+object-fit: fill;
+
+  
+}
 
 .cardz:hover {
     transform: scale(1.05); /* Aumenta o tamanho ao passar o mouse */
@@ -192,3 +199,9 @@ justify-content: center;
 .SecondNavbar button:active {
   transform: translateY(2px);
 }
+.PrimeiroTitulo{
+  color: black;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
