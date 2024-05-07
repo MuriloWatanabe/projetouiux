@@ -25,6 +25,7 @@ export default function Cart() {
                 <button className="btn-del ds3"><img className="btn-del-img" src="https://th.bing.com/th/id/OIP.Y3vNnClAy9LWAmeCwdexEAHaH3?rs=1&pid=ImgDetMain" alt="" /></button>
             </div>
         </div>
+        <button>ddddddd</button>
         </div>
     )
 }

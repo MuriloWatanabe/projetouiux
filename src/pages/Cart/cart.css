@@ -1,3 +1,4 @@
+/*centraliza o conteudo do card*/
 .cart-container {
     display: flex;
     align-items: center;
@@ -14,15 +15,16 @@
     margin-left: auto; /* Empurra o botão para o final da linha */
 }
 
+/*Tira os border do botao centraliza*/
 .btn-del {
     background: none;
     border: none;
     cursor: pointer;
     padding: 0;
     display: flex;
-    align-items: center;
 }
 
+/*define o tamanho do botão*/
 .btn-del-img {
     width: 24px;
     height: 24px;
