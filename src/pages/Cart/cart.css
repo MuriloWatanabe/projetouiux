@@ -1,3 +1,63 @@
+h1 {
+    font-size: 33px;
+    align-items: baseline;
+}
+
+/*centraliza o conteudo do card*/
 .cart-container {
-    background-color: #EEECFF;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.cart-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; /* Espaçamento entre a imagem e o cartão */
+}
+
+.btn-del-container {
+    margin-left: auto; /* Empurra o botão para o final da linha */
+}
+
+/*Tira os border do botao centraliza*/
+.btn-del {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+}
+
+/*define o tamanho do botão*/
+.btn-del-img {
+    width: 24px;
+    height: 24px;
+}
+
+.ds3 {
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.btn-finish-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    border: 1px;
+    border-radius: 4px;
+}
+
+.btn-finish {
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 60px;
+    border: 1px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

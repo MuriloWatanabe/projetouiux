@@ -14,6 +14,16 @@ function NavbarComp() {
               <Nav.Link href="/cart" className="navbar-dark">Cart</Nav.Link>
               <Nav.Link href="/login" className="navbar-dark">Login</Nav.Link>
             </Nav>
+            {/*Exemplo de imagem na Navbar*/}
+          <Navbar.Brand href="/">
+            <img
+                src="https://www.gratistodo.com/wp-content/uploads/2016/10/Bob-Esponja-1.jpeg"
+                width="30"
+                height="30"
+                className="d-inline-block align-top"
+                alt="React Bootstrap logo"
+            />
+          </Navbar.Brand>
           </Navbar.Collapse>
         </Container>
       </Navbar>

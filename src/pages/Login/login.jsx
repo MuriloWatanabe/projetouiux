@@ -13,7 +13,7 @@ export default function Login() {
                 <input className="input" type="email" placeholder="email" required/>
                 <input className="input" type="password" placeholder="senha" required/>
             </div>
-            <button className="save-btn" type="submit" onSubmit={(e) => {e.preventDefault()}}>Login</button>
+            <button className="btn-save" type="submit" onSubmit={(e) => {e.preventDefault()}}>Login</button>
             </form>
             <div>
                 <p className="terms">Ao continuar, afirmo que concordo com a <a className="terms-anchor" href="/privacy">Política de Privacidade</a>e os <a className="terms-anchor" href="/termos">Termos de Uso</a></p>
