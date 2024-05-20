@@ -28,7 +28,7 @@ export default function Cart() {
               <button onClick={aumentarNumero}>+</button>
             </div>
             <div className="btn-del-container">
-                <button className="btn-del ds3"><img className="btn-del-img" src="https://th.bing.com/th/id/OIP.Y3vNnClAy9LWAmeCwdexEAHaH3?rs=1&pid=ImgDetMain" alt="" /></button>
+                <button className="btn-del ds3"><svg xmlns="http://www.w3.org/2000/svg" height="60px" viewBox="0 -960 960 960" width="60px" fill="#000000"><path d="M267.33-120q-27.5 0-47.08-19.58-19.58-19.59-19.58-47.09V-740H160v-66.67h192V-840h256v33.33h192V-740h-40.67v553.33q0 27-19.83 46.84Q719.67-120 692.67-120H267.33Zm425.34-620H267.33v553.33h425.34V-740Zm-328 469.33h66.66v-386h-66.66v386Zm164 0h66.66v-386h-66.66v386ZM267.33-740v553.33V-740Z"/></svg></button>
             </div>
         </div>
         <hr />
@@ -44,7 +44,7 @@ export default function Cart() {
               <button onClick={aumentarNumero}>+</button>
             </div>
             <div className="btn-del-container">
-                <button className="btn-del ds3"><img className="btn-del-img" src="https://th.bing.com/th/id/OIP.Y3vNnClAy9LWAmeCwdexEAHaH3?rs=1&pid=ImgDetMain" alt="" /></button>
+                <button className="btn-del ds3"><svg xmlns="http://www.w3.org/2000/svg" height="60px" viewBox="0 -960 960 960" width="60px" fill="#000000"><path d="M267.33-120q-27.5 0-47.08-19.58-19.58-19.59-19.58-47.09V-740H160v-66.67h192V-840h256v33.33h192V-740h-40.67v553.33q0 27-19.83 46.84Q719.67-120 692.67-120H267.33Zm425.34-620H267.33v553.33h425.34V-740Zm-328 469.33h66.66v-386h-66.66v386Zm164 0h66.66v-386h-66.66v386ZM267.33-740v553.33V-740Z"/></svg></button>
             </div>
         </div>
         <div className="btn-finish-container">

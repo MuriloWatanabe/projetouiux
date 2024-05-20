@@ -1,92 +1,65 @@
 h1 {
-    font-size: 33px;
-    align-items: baseline;
+    font-size: 30px;
 }
-
-/*centraliza o conteudo do card*/
+/* cart.css */
 .cart-container {
     display: flex;
     align-items: center;
-    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .cart-card {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px; /* Espaçamento entre a imagem e o cartão */
-}
-
-.btn-del-container {
-    margin-left: auto; /* Empurra o botão para o final da linha */
-}
-
-/*Tira os border do botao centraliza*/
-.btn-del {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    display: flex;
-}
-
-/*define o tamanho do botão*/
-.btn-del-img {
-    width: 24px;
-    height: 24px;
-}
-
-.ds3 {
-    transition: 0.3s;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-.btn-finish-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 60px;
-    border: 1px;
-    border-radius: 4px;
-}
-
-.btn-finish {
-    background-color: black;
-    color: white;
-    width: 20%;
-    height: 60px;
-    border: 1px;
-    border-radius: 12px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    flex-grow: 1;
+    margin-left: 20px;
 }
 
 .contador {
     display: flex;
     align-items: center;
-    justify-content: center;
+    margin-right: 20px;
+}
 
-    margin-top: 50px;
-  }
-  input {
+.contador button {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.contador input {
     width: 50px;
     text-align: center;
-    margin: 10px;
-    font-size: 18px;
-    padding: 5px;
-  }
-  button {
-    padding: 10px 20px;
-    font-size: 24px;
-    cursor: pointer;
-    background-color: #000000;
+    margin: 0 10px;
+    height: 40px;
+}
+
+.btn-del-container {
+    display: flex;
+    align-items: center;
+}
+
+.btn-del {
+    background: none;
     border: none;
+    cursor: pointer;
+}
+
+.btn-finish-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-finish {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-finish {
+    border-radius: 20px;
+    background-color: black;
     color: white;
-    border-radius: 5px;
-    margin: 5px;
-    transition: background-color 0.3s;
-  }
-  button:hover {
-    background-color: #000000;
-  }
+}
