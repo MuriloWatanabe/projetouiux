@@ -11,7 +11,7 @@ export default function Login() {
                 </span>
             <div className="inputs">
                 <input className="input" type="email" placeholder="email" required/>
-                <input className="input" type="password" placeholder="senha" required/>
+                <input className="input" type="password" placeholder="senha" minLength={6} required/>
             </div>
             <button className="btn-save" type="submit" onSubmit={(e) => {e.preventDefault()}}>Login</button>
             </form>

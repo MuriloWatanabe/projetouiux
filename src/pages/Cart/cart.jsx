@@ -1,7 +1,18 @@
 import "./cart.css";
-import Button from 'react-bootstrap/Button';
+import React, { useState } from 'react';
 
 export default function Cart() {
+    const [numero, setNumero] = useState(0);
+
+    const aumentarNumero = () => {
+      setNumero(numero + 1);
+    };
+  
+    const diminuirNumero = () => {
+      if (numero > 0) {
+        setNumero(numero - 1);
+      }
+    };
     return(
         <div>
         <h1>Carrinho</h1>
@@ -10,6 +21,11 @@ export default function Cart() {
             <div className="cart-card ds3">
                 <div className="ds3"><p>Tenis</p></div>
                 <div className="ds3"><p>Preço total: R$ 444</p></div>
+            </div>
+            <div className="contador">
+              <button onClick={diminuirNumero}>-</button>
+              <input type="number" value={numero} readOnly />
+              <button onClick={aumentarNumero}>+</button>
             </div>
             <div className="btn-del-container">
                 <button className="btn-del ds3"><img className="btn-del-img" src="https://th.bing.com/th/id/OIP.Y3vNnClAy9LWAmeCwdexEAHaH3?rs=1&pid=ImgDetMain" alt="" /></button>
@@ -21,6 +37,11 @@ export default function Cart() {
             <div className="cart-card ds3">
                 <div className="ds3"><p>Tenis</p></div>
                 <div className="ds3"><p>Preço total: R$ 444</p></div>
+            </div>
+            <div className="contador">
+              <button onClick={diminuirNumero}>-</button>
+              <input type="number" value={numero} readOnly />
+              <button onClick={aumentarNumero}>+</button>
             </div>
             <div className="btn-del-container">
                 <button className="btn-del ds3"><img className="btn-del-img" src="https://th.bing.com/th/id/OIP.Y3vNnClAy9LWAmeCwdexEAHaH3?rs=1&pid=ImgDetMain" alt="" /></button>
