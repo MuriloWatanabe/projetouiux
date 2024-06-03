@@ -1,0 +1,237 @@
+.pagina-produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .container-produto {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .galeria-miniaturas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-right: 20px;
+  }
+  
+  .miniatura {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .mais-imagens {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    background-color: #f0f0f0;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .galeria-imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 50%;
+  }
+  
+  .imagem-principal {
+    width: 100%;
+    height: auto;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+  }
+  
+  .detalhes-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 50%;
+  }
+  
+  .titulo-produto {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .preco {
+    font-size: 1.5em;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .opcoes-tamanho {
+    margin-bottom: 20px;
+  }
+  
+  .opcoes-tamanho label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .botoes-tamanho {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .botao-tamanho {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  .botao-tamanho.selecionado {
+    background-color: #0000;
+    color: gray;
+  }
+  
+  .botao-tamanho:hover {
+    background-color: gray;
+  }
+  
+  .opcoes-quantidade {
+    margin-bottom: 20px;
+  }
+  
+  .opcoes-quantidade label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .opcoes-quantidade input {
+    padding: 5px;
+    font-size: 1em;
+  }
+  
+  .opcoes-frete {
+    margin-top: 20px;
+  }
+  
+  .opcoes-frete label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .opcoes-frete input {
+    padding: 5px;
+    font-size: 1em;
+    margin-right: 10px;
+  }
+  .opcoes-frete a {
+    color: black;
+    Text-decoration: underline; 
+    font-size: 15px
+  }
+  
+  
+  .botao-calcular-frete {
+    padding: 5px 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .botao-calcular-frete:hover {
+    background-color: gray;
+  }
+  
+  .botao-comprar {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .botao-comprar:hover {
+    background-color: gray;
+  }
+  
+  .secao-comentarios {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .secao-comentarios h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .comentarios-existentes {
+    margin-bottom: 20px;
+  }
+  
+  .comentario {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
+  }
+  
+  .comentario p {
+    margin: 5px 0;
+  }
+  
+  .caixa-comentario {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .botao-enviar-comentario {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .botao-enviar-comentario:hover {
+    background-color: gray;
+  }
+  

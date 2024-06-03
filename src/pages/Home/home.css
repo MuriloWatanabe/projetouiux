@@ -204,4 +204,23 @@ justify-content: center;
   font-size: 25px;
   margin-top: 20px;
 }
+.carousel-container {
+  max-width: 700px; /* Defina o tamanho máximo do carrossel */
+  max-height: 500px;
+  margin: 0 auto; /* Centralize o carrossel na tela */
+  overflow: hidden; 
+  border: 10px solid #f0f0f0; /* Adiciona uma borda vermelha de 2px ao redor do carrossel */
+  border-radius: 5px; /* Adiciona uma borda arredondada ao redor do carrossel */
+ margin-top: 20px;
+ margin-bottom: 20px;
+ display: flex;
+ justify-content: center;
+
+}
+.carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+
 

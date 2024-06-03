@@ -6,6 +6,7 @@ import About from "../pages/About/about"
 import Contact from "../pages/ContactUs/contact"
 import Cart from "../pages/Cart/cart"
 import Login from "../pages/Login/login"
+import Product from "../pages/Product/product"
 
 const Router = () => {
     return(
@@ -16,6 +17,7 @@ const Router = () => {
             <Route Component = { Contact } path="/contact" />
             <Route Component = { Cart } path="/cart" />
             <Route Component = { Login } path="/login" />
+            <Route Component = { Product } path="/product" />
         </Routes>
     </BrowserRouter>
     )

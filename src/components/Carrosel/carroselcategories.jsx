@@ -1,7 +1,12 @@
+
 export default function(){
     return(
-        <div className="imageOP">
-        <img width="500" height="500" src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2024%2F02%2Fone-piece-puma-suede-collection-release-date-4.jpg?cbr=1&q=90"></img>
-      </div>
+      <div className="ImbPrincipal">
+      <Carousel showArrows={true} infiniteLoop={true} autoPlay={true} interval={5000}>
+        <div>
+          <img src="https://image-cdn.hypb.st/https://hypebeast.com/wp-content/blogs.dir/4/files/2024/02/one-piece-puma-suede-collection-release-date-3.jpeg?cbr=1&q=90" alt="" />
+        </div>
+      </Carousel>
+    </div>
     );
 }
