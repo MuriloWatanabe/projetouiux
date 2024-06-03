@@ -7,7 +7,6 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 export default function Home() {
   return (
     <main>
-      {/* Promoção na parte superior do site */}
 
       <div className="a2">
         <a href="">Produtos</a>
@@ -20,7 +19,6 @@ export default function Home() {
       </div>
 
   
-      {/* Carrossel */}
       <div className="carousel-container">
       <Carousel 
           showArrows={true} 
@@ -30,7 +28,7 @@ export default function Home() {
           showStatus={false} 
           showThumbs={false} 
           className="custom-carousel"
-          style={{ textAlign: "center" }} // Centraliza o conteúdo do carrossel
+          style={{ textAlign: "center" }} 
         >
           <div>
             <img src="https://droper-media.us-southeast-1.linodeobjects.com/2032024201243829.webp" alt="" />
@@ -54,7 +52,6 @@ export default function Home() {
         <h1>Tênis de Basquete</h1>
       </div>
 
-      {/* Cards dos Tenis para compra */}
       <div className="Cards">
         <div className="grid-container">
           {/* Seus cards aqui */}<div className="cardz">
@@ -115,7 +112,8 @@ export default function Home() {
               <h1 className="cardz-title">Nike Kobe 6 3D</h1>
               <p className="price">$199.99</p>
             </div>
-          </div>        </div>
+          </div>        
+          </div>
       </div>
     </main>
   );

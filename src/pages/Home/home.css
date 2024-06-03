@@ -65,30 +65,23 @@ font-weight: bold; }
    vertical-align: middle;
    outline: none;
 
-   /* inherit font & color from ancestor */
    color: inherit;
    font: inherit;
 
-   /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
    line-height: normal;
 
-   /* Corrects font smoothing for webkit */
    -webkit-font-smoothing: inherit;
    -moz-osx-font-smoothing: inherit;
 
-   /* Corrects inability to style clickable `input` types in iOS */
    -webkit-appearance: none;
 
    cursor: pointer;
 
-   /* colors */
    color: white;
    background-color: rgba(0,0,0,0.8);
 
-   /* border */
    border-radius: 50%;
 
-   /* CSS Transitions */
    transition: background-color 0.5s ease;
    -webkit-transition: background-color 0.5s ease;
    -moz-transition: background-color 0.5s ease;
@@ -189,13 +182,12 @@ justify-content: center;
   transition: all 0.3s ease;
 }
 
-/* Estilos para os botões quando o mouse passa por cima */
+
 .SecondNavbar button:hover {
   background-color: rgba(0, 0, 0, 0.3);
   color: #000;
 }
 
-/* Estilos para os botões quando clicados */
 .SecondNavbar button:active {
   transform: translateY(2px);
 }
@@ -205,12 +197,12 @@ justify-content: center;
   margin-top: 20px;
 }
 .carousel-container {
-  max-width: 700px; /* Defina o tamanho máximo do carrossel */
+  max-width: 700px;
   max-height: 500px;
-  margin: 0 auto; /* Centralize o carrossel na tela */
+  margin: 0 auto; 
   overflow: hidden; 
-  border: 10px solid #f0f0f0; /* Adiciona uma borda vermelha de 2px ao redor do carrossel */
-  border-radius: 5px; /* Adiciona uma borda arredondada ao redor do carrossel */
+  border: 10px solid #f0f0f0; 
+  border-radius: 5px; 
  margin-top: 20px;
  margin-bottom: 20px;
  display: flex;
