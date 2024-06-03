@@ -1,0 +1,54 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.input {
+    width: 80%;
+    height: 28px;
+    border-radius: 6px;
+    margin-bottom: 18px;
+    border: none;
+}
+.material-icons { 
+    font-size: 80px;
+    color: rgba(255, 255, 255, 1); 
+}
+
+.save-btn {
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    width: 81%;
+    cursor: pointer;
+}
+
+.terms {
+    color: white;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.terms-anchor {
+    color: white;
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+.btn-save {
+    color: white;
+}

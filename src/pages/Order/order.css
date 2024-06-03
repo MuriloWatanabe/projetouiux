@@ -1,0 +1,65 @@
+h1 {
+    font-size: 30px;
+}
+/* cart.css */
+.cart-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cart-card {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.contador {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.contador button {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.contador input {
+    width: 50px;
+    text-align: center;
+    margin: 0 10px;
+    height: 40px;
+}
+
+.btn-del-container {
+    display: flex;
+    align-items: center;
+}
+
+.btn-del {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-finish-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-finish {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-finish {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
