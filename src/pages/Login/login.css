@@ -1,27 +1,13 @@
 .login-container {
     margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
-.background{
-    width: 430px;
-    height: 520px;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    z-index: 0;
-}
-.background .shape{
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    border-radius: 50%;
-}
-
 .login-form{
     height: 520px;
     width: 400px;
     background-color: rgba(255, 255, 255, 0.13);
-    position: absolute;
-    transform: translate(-50%, -50%);
     top: 53%;
     left: 50%;
     border-radius: 10px;

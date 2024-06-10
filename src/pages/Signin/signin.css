@@ -1,30 +1,14 @@
-.login-container {
+.signin-container {
     margin-top: 20px;
-    margin-bottom: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
-.background{
-    width: 430px;
-    height: 520px;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    z-index: 0;
-}
-.background .shape{
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    border-radius: 50%;
-}
-
-.login-form{
+.signin-form{
     height: 620px;
     width: 400px;
     background-color: rgba(255, 255, 255, 0.13);
-    position: absolute;
-    text-decoration: none !important;
-    transform: translate(-50%, -50%);
-    top: 60%;
+    top: 53%;
     left: 50%;
     border-radius: 10px;
     backdrop-filter: blur(10px);
@@ -32,14 +16,14 @@
     box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
     padding: 50px 35px;
 }
-.login-form{
+.signin-form{
     font-family: 'Poppins', sans-serif;
     color: #000000;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
 }
-.login-form h3{
+.signin-form h3{
     font-size: 32px;
     font-weight: 500;
     line-height: 42px;
@@ -66,7 +50,7 @@ input{
 ::placeholder{
     color: #e5e5e5;
 }
-.login-button{
+.signin-button{
     margin-top: 50px;
     width: 100%;
     background-color: #111010;

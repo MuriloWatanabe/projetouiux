@@ -3,10 +3,6 @@ import "./login.css"
 export default function Login() {
     return(
     <div className="login-container">
-        <div className="background">
-            <div className="shape"></div>
-            <div className="shape"></div>
-        </div>
         <form className="login-form">
             <h3>Logar</h3>
             <label for="email">Email</label>
