@@ -9,6 +9,7 @@ import Login from "../pages/Login/login"
 import Product from "../pages/Product/product"
 import Order from "../pages/Order/order"
 import Signin from "../pages/Signin/signin"
+import Finish from "../pages/Finish/finish"
 
 const Router = () => {
     return(
@@ -22,6 +23,7 @@ const Router = () => {
             <Route Component = { Product } path="/product" />
             <Route Component = { Order } path="/order" />
             <Route Component = { Signin } path="/signin" />
+            <Route Component = { Finish } path="/finish" />
         </Routes>
     </BrowserRouter>
     )

@@ -54,7 +54,7 @@ export default function Home() {
 
       <div className="Cards">
         <div className="grid-container">
-          {/* Seus cards aqui */}<div className="cardz">
+          <div className="cardz">
             <Link to="/product" style={{ textDecoration: 'none', color: 'inherit' }}>
               <img 
                 src="https://sneakernews.com/wp-content/uploads/2020/11/Nike-Kobe-6-Protro-3D-Lakers-CW2190-101-1.jpg" 
