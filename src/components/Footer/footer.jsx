@@ -8,7 +8,7 @@ export default function Footer() {
             <p> Guilherme Tamanini, Murilo Watanabe, Vinicius</p>
         </div>
         <div>
-            <a class="text-white" href="https://github.com/MuriloWatanabe/projetouiux"><h3>Ir para o GitHub do projeto:</h3></a>
+            <a class="text-white" id='footer-achor' href="https://github.com/MuriloWatanabe/projetouiux"><h3>Ir para o GitHub do projeto:</h3></a>
         </div>
         <div>
             <p>© 2024</p>

@@ -1,4 +1,4 @@
-:hover{
+#footer-achor:hover{
     text-decoration:underline;
     transition: 0.3s;
 }
