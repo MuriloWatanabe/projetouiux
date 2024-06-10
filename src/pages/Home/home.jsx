@@ -3,23 +3,24 @@ import "./home.css";
 import { Link } from 'react-router-dom';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+<script src="https://cdn.tailwindcss.com"></script>
 
 export default function Home() {
   return (
     <main>
 
-      <div className="a2">
-        <a href="">Produtos</a>
-        <a href="">Masculino</a>
-        <a href="">Feminino</a>  
+      <div class="justify-center flex text-center	p-[50px] pr-[250px] ml-[200px]">
+        <a class="text-black pr-[20px] text-center underline" href="">Produtos</a>
+        <a class="text-black pr-[20px] text-center underline" href="">Masculino</a>
+        <a class="text-black pr-[20px] text-center underline" href="">Feminino</a>  
       </div>
-      <div className="titles">
-        <h1>Ofertas</h1>
+      <div class="text-center">
+        <h1 class="text-center">Ofertas</h1>
         <h2>Tenis de Basquete</h2>
       </div>
 
   
-      <div className="carousel-container">
+      <div class="max-w-[700px] max-h-[500px] m-0 m-auto overflow-hidden border-[10px] border-solid border-slate-100 rounded-md mt-[20px] mb-[20px] flex justify-center">
       <Carousel 
           showArrows={true} 
           infiniteLoop={true} 
@@ -42,75 +43,75 @@ export default function Home() {
         </Carousel>
       </div>
 
-      <div className="SecondNavbar">
-        <p><button className="btnO">Saiba Mais</button></p>
-        <p><button className="btnO">Ver Ofertas</button></p>
-        <p><button className="btnO">Para Você !</button></p>
+      <div class="flex justify-center">
+        <p><button class="bg-black rounded-3xl text-white py-[10px] px-[20px] text-center no-underline m-[10px] cursor-pointer transition-all ease-in	duration-300">Saiba Mais</button></p>
+        <p><button class="bg-black rounded-3xl text-white py-[10px] px-[20px] text-center no-underline m-[10px] cursor-pointer transition-all ease-in	duration-300">Ver Ofertas</button></p>
+        <p><button class="bg-black rounded-3xl text-white py-[10px] px-[20px] text-center no-underline m-[10px] cursor-pointer transition-all ease-in	duration-300">Para Você !</button></p>
       </div>
 
-      <div className="PrimeiroTitulo">
-        <h1>Tênis de Basquete</h1>
+      <div class="text-black mt-[20px] text-2xl">
+        <h1 class="text-center">Tênis de Basquete</h1>
       </div>
 
-      <div className="Cards">
-        <div className="grid-container">
-          <div className="cardz">
+      <div class="justify-center flex m-[50px]">
+        <div class="grid grid-cols-3 gap-[120px]">
+          {/* Seus cards aqui */}<div class="w-[200px] h-[250px] bg-slate-100 overflow-hidden cursor-pointer text-center rounded-md	shadow-md	shadow-slate-150 transition-transform	duration-300">
             <Link to="/product" style={{ textDecoration: 'none', color: 'inherit' }}>
               <img 
                 src="https://sneakernews.com/wp-content/uploads/2020/11/Nike-Kobe-6-Protro-3D-Lakers-CW2190-101-1.jpg" 
                 alt="Adidas Harden Stepback" 
                 style={{ width: "100%" }} 
               />
-              <div className="cardz-content">
-                <h1 className="cardz-title">Nike Kobe 6 3D</h1>
-                <p className="price">$199.99</p>
+              <div class="p-[20px] text-center">
+                <h1 class="mb-[10px] font-bold text-lg">Nike Kobe 6 3D</h1>
+                <p>$199.99</p>
               </div>
             </Link>
           </div>
 
-          <div className="cardz">
+          <div class="w-[200px] h-[250px] bg-slate-100 overflow-hidden cursor-pointer text-center rounded-md	shadow-md	shadow-slate-150 transition-transform	duration-300">
             <Link to="/product" style={{ textDecoration: 'none', color: 'inherit' }}>
               <img 
                 src="https://sneakernews.com/wp-content/uploads/2020/11/Nike-Kobe-6-Protro-3D-Lakers-CW2190-101-1.jpg" 
                 alt="Adidas Harden Stepback" 
                 style={{ width: "100%" }} 
               />
-              <div className="cardz-content">
-                <h1 className="cardz-title">Nike Kobe 6 3D</h1>
-                <p className="price">$199.99</p>
+              <div class="p-[20px] text-center">
+                <h1 class="mb-[10px] font-bold text-lg">Nike Kobe 6 3D</h1>
+                <p>$199.99</p>
               </div>
             </Link>
           </div>
 
-          <div className="cardz">
+          <div class="w-[200px] h-[250px] bg-slate-100 overflow-hidden cursor-pointer text-center rounded-md	shadow-md	shadow-slate-150 transition-transform	duration-300">
             <img src="https://sneakernews.com/wp-content/uploads/2020/11/Nike-Kobe-6-Protro-3D-Lakers-CW2190-101-1.jpg" alt="Adidas Harden Stepback" style={{width: "100%"}} />
-            <div className="cardz-content">
-              <h1 className="cardz-title">Nike Kobe 6 3D</h1>
-              <p className="price">$199.99</p>
+            <div class="p-[20px] text-center">
+              <h1 class="mb-[10px] font-bold text-lg">Nike Kobe 6 3D</h1>
+              <p>$199.99</p>
             </div>
           </div>
           
-          <div className="cardz">
+          <div class="w-[200px] h-[250px] bg-slate-100 overflow-hidden cursor-pointer text-center rounded-md	shadow-md	shadow-slate-150 transition-transform	duration-300">
             <img src="https://sneakernews.com/wp-content/uploads/2020/11/Nike-Kobe-6-Protro-3D-Lakers-CW2190-101-1.jpg" alt="Adidas Harden Stepback" style={{width: "100%"}} />
-            <div className="cardz-content">
-              <h1 className="cardz-title">Nike Kobe 6 3D</h1>
-              <p className="price">$199.99</p>
+            <div class="p-[20px] text-center">
+              <h1 class="mb-[10px] font-bold text-lg">Nike Kobe 6 3D</h1>
+              <p>$199.99</p>
             </div>
           </div>
 
-          <div className="cardz">
+          <div class="w-[200px] h-[250px] bg-slate-100 overflow-hidden cursor-pointer text-center rounded-md	shadow-md	shadow-slate-150 transition-transform	duration-300">
             <img src="https://sneakernews.com/wp-content/uploads/2020/11/Nike-Kobe-6-Protro-3D-Lakers-CW2190-101-1.jpg" alt="Adidas Harden Stepback" style={{width: "100%"}} />
-            <div className="cardz-content">
-              <h1 className="cardz-title">Nike Kobe 6 3D</h1>
-              <p className="price">$199.99</p>
+            <div class="p-[20px] text-center">
+              <h1 class="mb-[10px] font-bold text-lg">Nike Kobe 6 3D</h1>
+              <p>$199.99</p>
             </div>
           </div>
 
-          <div className="cardz">
+          <div class="w-[200px] h-[250px] bg-slate-100 overflow-hidden cursor-pointer text-center rounded-md	shadow-md	shadow-slate-150 transition-transform	duration-300">
             <img src="https://sneakernews.com/wp-content/uploads/2020/11/Nike-Kobe-6-Protro-3D-Lakers-CW2190-101-1.jpg" alt="Adidas Harden Stepback" style={{width: "100%"}} />
-            <div className="cardz-content">
-              <h1 className="cardz-title">Nike Kobe 6 3D</h1>
-              <p className="price">$199.99</p>
+            <div class="p-[20px] text-center">
+              <h1 class="mb-[10px] font-bold text-lg">Nike Kobe 6 3D</h1>
+              <p>$199.99</p>
             </div>
           </div>        
           </div>
