@@ -1,16 +1,4 @@
-.footer a{
-    color: rgb(255, 255, 255);
-}
-.footer a:hover{
+:hover{
     text-decoration:underline;
     transition: 0.3s;
-}
-.footer {
-    background-color: #000000;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    bottom: 0;
-    width: 100%;
-    margin-top: 20px;
 }
