@@ -1,24 +1,48 @@
-import React from 'react';
+import React, { useState } from 'react';
+import "./finish.css";
+import { Link } from 'react-router-dom';
 
-export default function LoginForm() {
+export default function PurchasePage() {
+  const [quantity, setQuantity] = useState(1);
+
+  const decreaseQuantity = () => {
+    if (quantity > 1) {
+      setQuantity(quantity - 1);
+    }
+  };
+
+  const increaseQuantity = () => {
+    setQuantity(quantity + 1);
+  };
+
   return (
-    <div className="form-card">
-      <div className="form-card-2">
-        <form className="form">
-          <h2 className="title-login">Acesso Restrito</h2>
-          <div className="field">
-            <span className="input-icon icon icon-user-1"></span>
-            <input type="text" className="input-field" placeholder="Nome" autoComplete="off" />
+    <div className="purchase-container">
+      <div className="purchase-page">
+        <h1 className="page-title">Finalizar Compra</h1>
+        <div className="product">
+          <img src="https://static.netshoes.com.br/produtos/tenis-casual-masculino-olympikus-drift/04/2I2-2484-004/2I2-2484-004_zoom4.jpg?ts=1624644882" alt="Tênis" className="product-image" />
+          <div className="product-details">
+            <h2 className="product-name">Tênis Casual Masculino Olympikus Drift</h2>
+            <p className="product-price">Preço: R$ 444,00</p>
+            <div className="quantity">
+              <h2>Quantidade</h2>
+              <div className='Cquantity'>
+                <button onClick={decreaseQuantity}>-</button>
+              </div>
+              <div className="quantity-controls">
+                <input type="number" className="quantity-input" value={quantity} readOnly />
+              </div>
+              <div className='Cquantity'>
+                <button onClick={increaseQuantity}>+</button>
+              </div>
+            </div>
+            <p className="product-description">Descrição do produto aqui.</p>
           </div>
-          <div className="field">
-            <span className="input-icon icon icon-locked"></span>
-            <input type="password" className="input-field" placeholder="Senha" />
-          </div>
-          <div className="box-btn">
-            <button className="btn-login">Entrar</button>
-            <a href="#" className="btn-login">Cadastrar</a>
-          </div>
-        </form>
+        </div>
+        <div className="purchase-actions">
+          <Link className="back-to-cart" to={"/cart"}>Voltar para o Carrinho</Link>
+          <Link className="back-to-cart" to={"/order"}>Finalizar Compra</Link>
+        </div>
       </div>
     </div>
   );
