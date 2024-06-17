@@ -5,7 +5,7 @@ export default function About() {
     <div class="p-[20px] max-w-[800px] m-0 m-auto">
       <h1 class="text-center mb-[20px] text-3xl">Referências sobre o Projeto</h1>
       <div class="bg-slate-50 p-[20px] rounded-xl shadow-md shadow-slate-150">
-        <h2 class="mt-[20px] text-2xl pb-[5px] border-2	border-solid border-black">Fontes de Dados e Imagens</h2>
+        <h2 class="mt-[20px] pl-[20px] text-2xl py-[5px] border-2	border-solid border-black">Fontes de Dados e Imagens</h2>
         <ul class="p-0 list-none">
       
           <li class="mb-[10px]">
@@ -20,7 +20,7 @@ export default function About() {
           </li>
         </ul>
 
-        <h2 class="mt-[20px] text-2xl pb-[5px] border-2	border-solid	border-black	">Tecnologias Utilizadas</h2>
+        <h2 class="mt-[20px] pl-[20px] text-2xl py-[5px] border-2	border-solid	border-black	">Tecnologias Utilizadas</h2>
         <ul class="p-0 list-none">
           <li class="mb-[10px]">
             <a class="text-black no-underline	font-bold	transition-colors duration-300 hover:text-red-700" href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
@@ -44,7 +44,7 @@ export default function About() {
           </li>
         </ul>
 
-        <h2 class="mt-[20px] text-2xl pb-[5px] border-2	border-solid	border-black	">Design e Inspiração</h2>
+        <h2 class="mt-[20px] pl-[20px] text-2xl py-[5px] border-2	border-solid	border-black	">Design e Inspiração</h2>
         <ul class="p-0 list-none">
           <li class="mb-[10px]">
             <a class="text-black no-underline	font-bold	transition-colors duration-300 hover:text-red-700" href="https://dribbble.com/" target="_blank" rel="noopener noreferrer">
@@ -58,7 +58,7 @@ export default function About() {
           </li>
         </ul>
 
-        <h2 class="mt-[20px] text-2xl pb-[5px] border-2	border-solid	border-black	">Agradecimentos</h2>
+        <h2 class="mt-[20px] pl-[20px] text-2xl py-[5px] border-2	border-solid	border-black	">Agradecimentos</h2>
         <ul class="p-0 list-none">
           <li class="mb-[10px]">Equipe de desenvolvimento pela colaboração e esforço.</li>
           <li class="mb-[10px]">Clientes e usuários por suas valiosas sugestões e feedback.</li>
