@@ -1,17 +1,20 @@
 h1 {
-    font-size: 30px;
+    font-size: 20px;
 }
 /* cart.css */
 .cart-container {
     display: flex;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
+}
+.img-container {
+    width: 20%;
 }
 
 .cart-card {
     flex-grow: 1;
     margin-left: 20px;
-    width: 900px;
+    width: 20%;
 }
 
 .contador {
@@ -64,4 +67,13 @@ h1 {
     border-radius: 20px;
     background-color: black;
     color: white;
+}
+.last {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1500px) {
+    .prim-cart-container {
+        margin-bottom: 50px;
+    }
 }
