@@ -10,6 +10,7 @@ import Product from "../pages/Product/product"
 import Order from "../pages/Order/order"
 import Signin from "../pages/Signin/signin"
 import Finish from "../pages/Finish/finish"
+import FinishBuy from "../pages/ProductBuy/finishbuy"
 
 const Router = () => {
     return(
@@ -24,6 +25,7 @@ const Router = () => {
             <Route Component = { Order } path="/order" />
             <Route Component = { Signin } path="/signin" />
             <Route Component = { Finish } path="/finish" />
+            <Route Component = { FinishBuy } path="/finishbuy" />
         </Routes>
     </BrowserRouter>
     )

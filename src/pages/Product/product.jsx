@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './product.css';
 
 export default function Home() {
@@ -54,7 +55,7 @@ export default function Home() {
           <div className="opcoes-tamanho">
             <label>Tamanho:</label>
             <div className="botoes-tamanho">
-              {[8, 9, 10, 11].map((tamanho) => (
+              {[40,41,42,43,44].map((tamanho) => (
                 <button
                   key={tamanho}
                   className={`botao-tamanho ${tamanhoSelecionado === tamanho ? 'selecionado' : ''}`}
@@ -69,7 +70,7 @@ export default function Home() {
             <label htmlFor="quantidade">Quantidade:</label>
             <input type="number" id="quantidade" name="quantidade" min="1" max="10" defaultValue="1" />
           </div>
-          <button className="botao-comprar">Comprar Agora</button>
+          <Link to="/Finishbuy"  className="botao-comprar" > Comprar Agora</Link>
           <div className="opcoes-frete">
             <label htmlFor="cep">Digite seu CEP:</label>
             <input 

@@ -26,7 +26,7 @@ export default function Order() {
             </div>
             <hr />
             <div className="cart-container">
-                <div><img src="https://static.netshoes.com.br/produtos/tenis-casual-masculino-olympikus-drift/04/2I2-2484-004/2I2-2484-004_zoom4.jpg?ts=1624644882" width={250} height={250} alt="" /></div>
+                <div><img src="https://sneakernews.com/wp-content/uploads/2020/11/Nike-Kobe-6-Protro-3D-Lakers-CW2190-101-1.jpg" width={250} height={250} alt="" /></div>
                 <div className="cart-card">
                     <div className="ds3"><p>Tenis</p></div>
                     <div className="ds3"><p>Preço total: R$ 444</p></div>
