@@ -5,18 +5,20 @@ h1 {
 .cart-container {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 .cart-card {
     flex-grow: 1;
     margin-left: 20px;
+    width: 900px;
 }
 
 .contador {
     display: flex;
     align-items: center;
     margin-right: 20px;
+    width: 20%;
 }
 
 .contador button {
