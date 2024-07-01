@@ -8,7 +8,7 @@ export default function Order() {
 
     return(
         <>
-        <div>
+        <div class="h-screen">
             <h1>Pedidos</h1>
             <div className="cart-container">
                 <div><img src="https://static.netshoes.com.br/produtos/tenis-casual-masculino-olympikus-drift/04/2I2-2484-004/2I2-2484-004_zoom4.jpg?ts=1624644882" width={250} height={250} alt="" /></div>
